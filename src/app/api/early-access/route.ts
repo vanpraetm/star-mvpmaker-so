@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 const getResend = () => new Resend(process.env.RESEND_API_KEY);
 
-const VALID_CODES = ["RISKY2026", "EARLYBIRD", "LMRA-BETA"];
+const VALID_CODES = ["STAR2026", "EARLYBIRD"];
 
 export async function POST(request: Request) {
   const { email, code } = await request.json();
@@ -12,9 +12,9 @@ export async function POST(request: Request) {
   if (email && !code) {
     try {
       await getResend().emails.send({
-        from: "RISKY <noreply@mvpmaker.so>",
+        from: "STAR <noreply@mvpmaker.so>",
         to: "vanpraetmichiel@gmail.com",
-        subject: `Nieuwe early access aanvraag: ${email}`,
+        subject: `[STAR] Nieuwe early access aanvraag: ${email}`,
         html: `
           <h2>Nieuwe early access aanvraag</h2>
           <p><strong>E-mail:</strong> ${email}</p>

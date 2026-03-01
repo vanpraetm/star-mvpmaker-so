@@ -19,9 +19,9 @@ export default function Home() {
       {/* Header */}
       <header className="flex items-center justify-between h-[72px] px-5 sm:px-12 border-b border-[#1A1A1A]">
         <div className="flex items-center gap-2.5">
-          <img src="/risky-logo.png" alt="Risky" className="h-8" />
+          <img src="/star-logo.png" alt="Star" className="h-8" />
           <span className="font-[family-name:var(--font-anton)] text-[22px] text-white tracking-[0.44px]">
-            RISKY
+            STAR
           </span>
         </div>
         <div className="flex items-center gap-4 sm:gap-8">
@@ -42,14 +42,14 @@ export default function Home() {
         <div className="hero-stagger hero-stagger-1 flex items-center gap-2 border border-[#333333] rounded-full px-4 py-2">
           <div className="w-2 h-2 bg-[#E53E3E] rounded-full" />
           <span className="text-[#A1A1AA] text-[13px] font-medium">
-            LMRA — Last Minute Risk Assessment
+            STAR — Safety Task Assessment & Review
           </span>
         </div>
         <h1 className="hero-stagger hero-stagger-2 font-[family-name:var(--font-anton)] text-5xl sm:text-[80px] text-white text-center leading-[1.05] tracking-[-1.6px] max-w-[900px] mt-6 sm:mt-8">
-          Veiligheidschecks die w&eacute;l worden ingevuld.
+          Veiligheidschecks die w&#233;l worden ingevuld.
         </h1>
         <p className="hero-stagger hero-stagger-3 text-[#A1A1AA] text-base sm:text-xl leading-[1.6] text-center max-w-[680px] mt-6 sm:mt-8">
-          Risky laat je team snel veiligheidschecks (LMRA&apos;s) invullen
+          Star laat je team snel veiligheidschecks invullen
           op de werf via QR-code en stem. Jouw inspectielogboek wordt
           automatisch opgebouwd waardoor je altijd klaar bent voor controle.
         </p>
@@ -60,9 +60,9 @@ export default function Home() {
             {/* Logo + Steps */}
             <div className="flex flex-col gap-2.5 w-full">
               <div className="flex items-center gap-2.5">
-                <img src="/risky-logoblack.png" alt="Risky" className="h-7" />
+                <img src="/star-logoblack.png" alt="Star" className="h-7" />
                 <span className="font-[family-name:var(--font-anton)] text-[22px] text-[#111111]">
-                  RISKY
+                  STAR
                 </span>
               </div>
               <div className="flex items-center gap-1.5">
@@ -259,7 +259,7 @@ export default function Home() {
             {
               icon: <LayoutTemplate className="w-7 h-7 text-[#E53E3E]" />,
               title: "Template Bibliotheek",
-              desc: "Kies uit kant-en-klare LMRA-templates of maak je eigen. Zet ze in seconden live op elke locatie.",
+              desc: "Kies uit kant-en-klare STAR-templates of maak je eigen. Zet ze in seconden live op elke locatie.",
             },
             {
               icon: <MapPin className="w-7 h-7 text-[#E53E3E]" />,
@@ -269,7 +269,7 @@ export default function Home() {
             {
               icon: <FileText className="w-7 h-7 text-[#E53E3E]" />,
               title: "Directe Rapporten",
-              desc: "Elke LMRA wordt gelogd en is exporteerbaar. CSV, PDF — klaar voor audits en inspecties.",
+              desc: "Elke STAR wordt gelogd en is exporteerbaar. CSV, PDF — klaar voor audits en inspecties.",
             },
             {
               icon: <Mic className="w-7 h-7 text-[#E53E3E]" />,
@@ -303,23 +303,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* QR Stickers */}
-      <section className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 px-5 py-16 sm:p-20">
-        <div className="flex flex-col gap-6 flex-1">
-          <span className="text-[#E53E3E] text-xs font-semibold tracking-[1.8px]">
-            QR STICKERS
-          </span>
-          <h2 className="font-[family-name:var(--font-anton)] text-3xl sm:text-[44px] text-white leading-[1.1] max-w-[500px]">
-            Plak het op je helm.
-            <br />
-            Of je gereedschapskist.
-          </h2>
-        </div>
-        <div className="w-full sm:w-[340px] lg:w-[420px] aspect-square bg-[#111111] border border-[#222222] rounded-3xl flex items-center justify-center overflow-hidden shrink-0">
-          <img src="/risky-sticker.png" alt="RISKY QR sticker" className="w-full h-full object-cover rounded-3xl" />
-        </div>
-      </section>
-
       {/* Final CTA */}
       <section className="flex flex-col items-center py-20 px-5 sm:py-24 sm:px-12 bg-[#0F0F0F]">
         <h2 className="font-[family-name:var(--font-anton)] text-3xl sm:text-[48px] text-white text-center leading-[1.1] max-w-[600px]">
@@ -341,13 +324,13 @@ export default function Home() {
       {/* Footer */}
       <footer className="flex items-center justify-between h-[72px] px-5 sm:px-12">
         <div className="flex items-center gap-2">
-          <img src="/risky-logo.png" alt="Risky" className="h-6" />
+          <img src="/star-logo.png" alt="Star" className="h-6" />
           <span className="font-[family-name:var(--font-anton)] text-base text-white tracking-[0.32px]">
-            RISKY
+            STAR
           </span>
         </div>
         <span className="text-[#52525B] text-[13px]">
-          © 2026 RISKY. All rights reserved.
+          © 2026 STAR. All rights reserved.
         </span>
       </footer>
     </div>

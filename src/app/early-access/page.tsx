@@ -71,9 +71,9 @@ export default function EarlyAccess() {
     return (
       <div className="min-h-screen bg-[#0A0A0A] font-[family-name:var(--font-inter)] flex items-center justify-center px-5">
         <div className="flex flex-col items-center w-full max-w-[400px]">
-          <img src="/risky-logo.png" alt="Risky" className="h-12" />
+          <img src="/star-logo.png" alt="Star" className="h-12" />
           <span className="font-[family-name:var(--font-anton)] text-[28px] text-white tracking-[0.56px] mt-3">
-            RISKY
+            STAR
           </span>
           <h1 className="text-white text-xl font-bold mt-8 text-center">
             Bedankt!
@@ -96,9 +96,9 @@ export default function EarlyAccess() {
     return (
       <div className="min-h-screen bg-[#0A0A0A] font-[family-name:var(--font-inter)] flex items-center justify-center px-5">
         <div className="flex flex-col items-center w-full max-w-[400px]">
-          <img src="/risky-logo.png" alt="Risky" className="h-12" />
+          <img src="/star-logo.png" alt="Star" className="h-12" />
           <span className="font-[family-name:var(--font-anton)] text-[28px] text-white tracking-[0.56px] mt-3">
-            RISKY
+            STAR
           </span>
           <div className="fist-pop text-5xl mt-8">&#x1F44A;</div>
           <h1 className="text-white text-xl font-bold mt-4 text-center">
@@ -119,9 +119,9 @@ export default function EarlyAccess() {
     <div className="min-h-screen bg-[#0A0A0A] font-[family-name:var(--font-inter)] flex items-center justify-center px-5">
       <div className="flex flex-col items-center w-full max-w-[400px]">
         {/* Logo */}
-        <img src="/risky-logo.png" alt="Risky" className="h-12" />
+        <img src="/star-logo.png" alt="Star" className="h-12" />
         <span className="font-[family-name:var(--font-anton)] text-[28px] text-white tracking-[0.56px] mt-3">
-          RISKY
+          STAR
         </span>
 
         {/* Section 1: Vraag early access aan */}
@@ -198,7 +198,7 @@ export default function EarlyAccess() {
             disabled={codeLoading}
             className="w-full bg-transparent text-white text-base font-semibold h-12 rounded-full border border-[#333333] cursor-pointer disabled:opacity-50"
           >
-            {codeLoading ? "Even geduld..." : "Unlock RISKY"}
+            {codeLoading ? "Even geduld..." : "Unlock STAR"}
           </button>
         </form>
 

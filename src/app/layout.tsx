@@ -14,7 +14,7 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "RISKY LMRA — Scan. Speak. Safe.",
+  title: "STAR — Scan. Speak. Safe.",
   description:
     "Your crew scans a QR code, answers safety questions by voice, and gets back to work. Location, time, and answers — all logged automatically.",
 };
