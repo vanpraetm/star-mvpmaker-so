@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 34.1333 25.6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Gmail_icon_(2020) 1" clip-path="url(#clip0_143_4450)">
+<path id="Vector" d="M2.32649 25.5996H7.75679V12.4117L-0.00078125 6.59355V23.2723C-0.00078125 24.5601 1.04261 25.5996 2.32649 25.5996Z" fill="var(--fill-0, #4285F4)"/>
+<path id="Vector_2" d="M26.3758 25.5996H31.8061C33.0938 25.5996 34.1334 24.5562 34.1334 23.2723V6.59355L26.3758 12.4117" fill="var(--fill-0, #34A853)"/>
+<path id="Vector_3" d="M26.3758 2.32743V12.4123L34.1334 6.5941V3.49107C34.1334 0.613005 30.848 -1.02772 28.5479 0.698338" fill="var(--fill-0, #FBBC04)"/>
+<path id="Vector_4" d="M7.75703 12.412V2.32715L17.0661 9.30897L26.3752 2.32715V12.412L17.0661 19.3938" fill="var(--fill-0, #EA4335)"/>
+<path id="Vector_5" d="M-0.00078125 3.49107V6.5941L7.75679 12.4123V2.32743L5.58467 0.698338C3.28067 -1.02772 -0.00078125 0.613005 -0.00078125 3.49107Z" fill="var(--fill-0, #C5221F)"/>
+</g>
+<defs>
+<clipPath id="clip0_143_4450">
+<rect width="34.1333" height="25.6" fill="white"/>
+</clipPath>
+</defs>
+</svg>

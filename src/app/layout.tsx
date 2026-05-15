@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Anton } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -7,16 +7,15 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const anton = Anton({
-  variable: "--font-anton",
-  weight: "400",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "STAR — Scan. Speak. Safe.",
+  title: "Aidy alternatives — vergelijk en kies de beste AI agent",
   description:
-    "Your crew scans a QR code, answers safety questions by voice, and gets back to work. Location, time, and answers — all logged automatically.",
+    "Overzicht van Aidy alternatieven per use case. Vergelijk features, prijzen en geschiktheid voor jouw vertical.",
 };
 
 export default function RootLayout({
@@ -25,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${anton.variable} antialiased`}>
+    <html lang="nl">
+      <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>
         {children}
       </body>
     </html>
